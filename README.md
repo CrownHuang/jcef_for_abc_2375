@@ -1,7 +1,7 @@
 # how to use?
-编译准备：jcef编译需要依托win32 jdk1.7版本，请确认下载并配置好相应环境变量。
+编译准备：jcef编译需要依托win32 jdk1.7版本，VisualStudio 2013 update4版本。请确认下载并配置好相应环境变量。
 * 使用vs2013，打开jcef.sln，选择菜单栏中的 生成->生成解决方案，编译jcef代码。
-* 进入tools目录下，打开cmd，输入一下指令即可生成编译后文件：
+* 进入tools目录下，打开cmd，输入以下指令即可生成编译后文件：
 ```
 # compile.bat win32
  ```
