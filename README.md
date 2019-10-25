@@ -1,4 +1,7 @@
-#20191025
+# 201910251458
+fix jcef native code to use the provice classloader instead of the default system classloader which can support osgi. 
+
+# 201910251454
 jcef compile project based on  commit of 8618865195dc8883e506b93d19c4968394bd4952 which cef native based on v3.2375.1291.g47e6d4b
 
 # Original README.md
