@@ -1,5 +1,19 @@
+# how to use?
+编译准备：jcef编译需要依托win32 jdk1.7版本，请确认下载并配置好相应环境变量。
+* 使用vs2013，打开jcef.sln，选择菜单栏中的 生成->生成解决方案，编译jcef代码。
+* 进入tools目录下，打开cmd，输入一下指令即可生成编译后文件：
+```
+# compile.bat win32
+ ```
+ ```
+# make_distrib.bat win32
+ ```
+* binary_distrib/win32/bin/lib/win32文件夹下为编译好的动态库和相关资源；binary_distrib/win32/bin/*.jar为jcef编译后依赖的三方jar包。
+
+
+
 # 201910251458
-fix jcef native code to use the provice classloader instead of the default system classloader which can support osgi. 
+fix jcef native code to use the provide classloader instead of the default system classloader which can support osgi. 
 
 # 201910251454
 jcef compile project based on  commit of 8618865195dc8883e506b93d19c4968394bd4952 which cef native based on v3.2375.1291.g47e6d4b
